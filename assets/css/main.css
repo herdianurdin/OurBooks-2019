@@ -1,0 +1,34 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url('Poppins.ttf');
+}
+
+a {
+    text-decoration: none;
+    font-weight: 700
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    font-family: 'Poppins';
+    background: #f0f0f0;
+}
+
+@keyframes fadeFromBottom {
+    0% {
+        opacity: 0;
+        transform: translateY(50px)
+    }
+
+    50% {
+        opacity: 0.5;
+        transform: translateY(-25px)
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0)
+    }
+}
